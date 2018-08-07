@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "f5551115-761a-010c-7cc6-847d8d293603",
+		"name": "Mensajes Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mensajes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url}}/mensajes",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"mensajes"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "e134b75e-454f-4a83-b96a-b88c63395f8e",
+					"name": "mensajes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/mensajes",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"mensajes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"email\": \"serginhosacf@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 2,\n        \"email\": \"bgiraldox@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias. Mi numero de telefono es 315615145841\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 3,\n        \"email\": \"serginhosacf@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 4,\n        \"email\": \"bgiraldox@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 5,\n        \"email\": \"serginhosacf@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 6,\n        \"email\": \"pepitoperez@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 7,\n        \"email\": \"pepito@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 8,\n        \"email\": \"hola@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 9,\n        \"email\": \"holahola@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 10,\n        \"email\": \"decimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 11,\n        \"email\": \"undecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 12,\n        \"email\": \"duodecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 13,\n        \"email\": \"tredecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 14,\n        \"email\": \"tetradecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 15,\n        \"email\": \"heptadecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 16,\n        \"email\": \"hexadecimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 17,\n        \"email\": \"decimoseptimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 3\n    },\n    {\n        \"id\": 18,\n        \"email\": \"decimooctavo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 3\n    },\n    {\n        \"id\": 19,\n        \"email\": \"decimonoveno@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 3\n    },\n    {\n        \"id\": 20,\n        \"email\": \"vigesimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 4\n    },\n    {\n        \"id\": 21,\n        \"email\": \"vigesimoprimero@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 4\n    },\n    {\n        \"id\": 22,\n        \"email\": \"vigesimosegundo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 4\n    },\n    {\n        \"id\": 23,\n        \"email\": \"vigesimotercero@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 4\n    },\n    {\n        \"id\": 24,\n        \"email\": \"vigesimocuarto@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 4\n    },\n    {\n        \"id\": 25,\n        \"email\": \"vigesimoquinto@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 26,\n        \"email\": \"vigesimosexto@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 27,\n        \"email\": \"vigesimoseptimo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 28,\n        \"email\": \"vigesimooctavo@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 29,\n        \"email\": \"vigesimonoveno@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 2\n    },\n    {\n        \"id\": 30,\n        \"email\": \"trienta@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 31,\n        \"email\": \"trientayuno@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 32,\n        \"email\": \"trientaydos@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    },\n    {\n        \"id\": 33,\n        \"email\": \"trientaytres@gmail.com\",\n        \"mensaje\": \"Buenos dias señor agricultor deseo hacer negocios con ud, gracias.\",\n        \"usuario\": 1\n    }\n]"
+				}
+			]
+		}
+	]
+}

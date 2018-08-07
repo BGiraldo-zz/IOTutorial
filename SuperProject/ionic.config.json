@@ -1,0 +1,7 @@
+{
+  "name": "SuperProject",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,59 @@
+
+Install nvm
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+
+
+Install Node
+
+nvm install node
+
+
+
+Verify
+
+node --version 
+npm --version
+git --version
+
+
+
+Install Ionic
+
+npm install -g ionic
+
+
+
+Login 
+
+ionic login
+
+
+
+Create new project 
+
+ionic start myApp tabs
+
+
+Install Cordova
+
+npm install -g ionic cordova
+
+
+Install node modules
+
+npm i
+
+
+Configure project on Ionic account with git
+
+ionic link
+
+
+Start your app
+
+cd myApp
+
+ionic serve
+

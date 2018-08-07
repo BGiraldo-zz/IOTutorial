@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a70f860b-9eb5-a6a3-5622-61cab4758759",
+		"name": "Socios Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "socios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url}}/socios",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"socios"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "f321cfe2-bfa7-4cf4-813b-fd87eaf207e8",
+					"name": "listaSocios",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/socios",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"socios"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [],
+					"cookie": [],
+					"body": "[\n    {\n        \"documento\": 111111,\n        \"nombre\": \"Sergio\",\n        \"apellidos\": \"Ceballos\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #1\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1965\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1221,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"papa\",\n            \"tomate\",\n            \"arroz\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 222222,\n        \"nombre\": \"Brayan\",\n        \"apellidos\": \"Giraldo\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #2\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1975\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1221,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"papa\",\n            \"tomate\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 333333,\n        \"nombre\": \"Sergio\",\n        \"apellidos\": \"Ceballos\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #3\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1965\",\n        \"listaUsuarios\": [\n            1111,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"tomate\",\n            \"arroz\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 444444,\n        \"nombre\": \"Brayan\",\n        \"apellidos\": \"Giraldo\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #4\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1975\",\n        \"listaUsuarios\": [\n            1111,\n            1221,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"arroz\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 555555,\n        \"nombre\": \"Sergio\",\n        \"apellidos\": \"Ceballos\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #5\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1965\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1221\n        ],\n        \"listaCultivos\": [\n            \"papa\"\n        ]\n    },\n    {\n        \"documento\": 666666,\n        \"nombre\": \"Brayan\",\n        \"apellidos\": \"Giraldo\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #6\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1975\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1221,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"papa\",\n            \"arroz\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 777777,\n        \"nombre\": \"Sergio\",\n        \"apellidos\": \"Ceballos\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #7\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1965\",\n        \"listaUsuarios\": [\n            1221,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"papa\",\n            \"tomate\"\n        ]\n    },\n    {\n        \"documento\": 888888,\n        \"nombre\": \"Jaime\",\n        \"apellidos\": \"Giraldo\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #8\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1975\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1001\n        ],\n        \"listaCultivos\": [\n            \"papa\",\n            \"tomate\",\n            \"arroz\",\n            \"yuca\"\n        ]\n    },\n    {\n        \"documento\": 888888,\n        \"nombre\": \"Jaime\",\n        \"apellidos\": \"Giraldo\",\n        \"telefono\": \"3053092173\",\n        \"direccion\": \"calle #8\",\n        \"email\": \"email@gmail.com\",\n        \"fechaNacimiento\": \"27-04-1975\",\n        \"listaUsuarios\": [\n            1111,\n            1234,\n            1001\n        ],\n        \"listaCultivos\": [\n          \"papa\",\n            \"tomate\",\n            \"arroz\",\n            \"yuca\"\n        ]\n    }\n]"
+				}
+			]
+		}
+	]
+}
